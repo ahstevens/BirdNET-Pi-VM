@@ -22,7 +22,7 @@ useradd -m pi
 usermod -aG sudo pi
 sudo passwd pi
 su pi
-curl -s https://raw.githubusercontent.com/MatthewBCooke/BirdNET-Pi/debian/newinstaller.sh | bash
+curl -s https://raw.githubusercontent.com/ahstevens/BirdNET-Pi-VM/debian/newinstaller.sh | bash
 ```
 13. Then continue with step #21 [here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide) 
 14. And add your audio network feed under Tools >> Settings >> Advanced Settings
