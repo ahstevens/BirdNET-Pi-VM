@@ -34,7 +34,7 @@ fi
 
 
 branch=debian
-git clone -b $branch --depth=1 https://github.com/MatthewBCooke/BirdNET-Pi.git ${HOME}/BirdNET-Pi &&
+git clone -b $branch --depth=1 https://github.com/ahstevens/BirdNET-Pi-VM.git ${HOME}/BirdNET-Pi &&
 
 $HOME/BirdNET-Pi/scripts/install_birdnet.sh
 if [ ${PIPESTATUS[0]} -eq 0 ];then
